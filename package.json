@@ -2,6 +2,20 @@
 	"name": "tech-book-vault",
 	"version": "0.0.1",
 	"private": true,
+	"description": "TechBookVault manages the company's library collection",
+	"author": "RyomaY",
+	"license": "MIT",
+	"homepage": "https://github.com/ryoma-yama/TechBookVault",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ryoma-yama/TechBookVault.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ryoma-yama/TechBookVault/issues"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

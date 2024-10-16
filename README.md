@@ -1,38 +1,73 @@
-# create-svelte
+<h1>Welcome to tech-book-vault 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-blue.svg" />
+  <a href="https://github.com/ryoma-yama/TechBookVault#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ryoma-yama/TechBookVault/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/ryoma-yama/TechBookVault/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/ryoma-yama/tech-book-vault" />
+  </a>
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+> TechBookVault manages the library collection
 
-## Creating a project
+### 🏠 [Homepage](https://github.com/ryoma-yama/TechBookVault)
 
-If you're seeing this, you've probably already done this step. Congrats!
+<!-- ### ✨ [Demo](https://github.com/ryoma-yama/TechBookVault) -->
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Prerequisites
 
-# create a new project in my-app
-npm create svelte@latest my-app
+- node >=20.0.0
+- corepack >=0.28.2
+
+Corepack not set up? Check [pnpm setup guide](https://pnpm.io/installation#using-corepack).
+
+## Install
+
+```sh
+pnpm i
 ```
 
-## Developing
+## Develop
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```sh
+pnpm dev
 ```
 
-## Building
+## Build
 
 To create a production version of your app:
 
 ```bash
-npm run build
+pnpm build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with `pnpm preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Author
+
+👤 **RyomaY**
+
+* Github: [@ryoma-yama](https://github.com/ryoma-yama)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ryoma-yama/TechBookVault/issues). You can also take a look at the [contributing guide](https://github.com/ryoma-yama/TechBookVault/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2024 [RyomaY](https://github.com/ryoma-yama).<br />
+This project is [MIT](https://github.com/ryoma-yama/TechBookVault/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
