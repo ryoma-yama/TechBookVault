@@ -11,12 +11,12 @@ import {
 
 export const books = pgTable('books', {
 	id: serial('id').primaryKey(),
-	googleId: varchar('google_id', { length: 100 }),
-	isbn13: char('isbn_13', { length: 13 }),
+	googleId: varchar('google_id', { length: 100 }).notNull(),
+	isbn13: char('isbn_13', { length: 13 }).notNull(),
 	title: varchar('title', { length: 255 }).notNull(),
-	publisher: varchar('publisher', { length: 255 }),
-	publishedDate: date('published_date'),
-	description: text('description')
+	publisher: varchar('publisher', { length: 255 }).notNull(),
+	publishedDate: date('published_date').notNull(),
+	description: text('description').notNull()
 });
 
 export const authors = pgTable('authors', {
