@@ -35,7 +35,7 @@ export const bookAuthors = pgTable(
 			.references(() => authors.id)
 	},
 	(table) => ({
-		pk: primaryKey({ columns: [table.bookId, table.authorId] })
+		pk: primaryKey({ name: 'book_authors_pk', columns: [table.bookId, table.authorId] })
 	})
 );
 
